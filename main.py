@@ -10,8 +10,8 @@ window.geometry('1000x800')  # Размеры окна
 global board  # Переменная отвечающая за выбор проектра платы внутри программы
 board = 0  # 0=проект не выбран
 sqlite_file = 'Z:\SMT\database\pro.db'
-
-
+sqlite_file = 'Z:\SMT\database\pro.db'
+sqlite_file = 'Z:\SMT\database\pro.db'
 def entr1(event):  # Функция вызова функции нажатия кнопки при возврате каретки
     clicked()
     txt1.focus()
